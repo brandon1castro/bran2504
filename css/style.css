@@ -24,10 +24,14 @@ body{
   justify-content: space-around;
   align-items: center;
   padding: 5px;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
   color: #000000;
+  font-weight: 600;
+  padding-right: 25px;
+  font-size: 20px;
 }
 li{
   list-style: none;
@@ -66,7 +70,7 @@ li{
 }
 .home__img{
   margin: 10px 10px 0;
-  width: 300px;
+  width: 280px;
   align-items: center;
   box-shadow: 8px 2px 8px;
 }
@@ -85,6 +89,9 @@ li{
 /*Fin de Home*/
 
 /* inicio de Música */
+.carta{
+  padding: 10px 15px;
+}
 .carta__h1 {
   padding: 10px 15px;
   text-align: center;
@@ -126,6 +133,9 @@ li{
   text-align: center;
   font-size: 1em;
 }
+.carta2{
+  padding: 10px 15px;
+}
 .carta2__h1 {
   padding: 10px 15px;
   text-align: center;
@@ -145,6 +155,9 @@ li{
   display: block;
   margin: auto;
   box-shadow: 8px 2px 8px;
+}
+.carta3{
+  padding: 10px 15px;
 }
 .carta3__h3 {
   padding: 0 0 25px 0;
@@ -199,10 +212,17 @@ li{
   font-style: italic;
   text-align: center;
 }
+.photos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+}
 .photos__one {
   width: 280px;
   box-shadow: 0px 8px 8px 0px;
-  margin: 10px 10px;
+  margin: 15px 10px;
+
 }
 .video__h1 {
   padding: 10px 15px;
@@ -210,11 +230,19 @@ li{
   font-style: italic;
   text-align: center;
 }
+.video{
+  padding: 10px 15px;
+}
 .video__h3 {
-  padding: 15px 0 0 15px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
   margin: 0;
 }
 .video__one {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   padding: 10px;
   width: 280px;
 }
@@ -496,24 +524,42 @@ li{
 
   /* Inicio de Galería */
   .photos__h1 {
+    font-style: italic;
+    font-size: 3rem;
     padding: 10px;
     text-align: center;
+  }
+  .photos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
   }
   .photos__one {
-    display: inline-flex;
-    justify-content: center;
     box-shadow: 0px 8px 8px 0px;
-    margin: 10px 10px;
+    margin: auto
   }
   .video__h1 {
+    font-style: italic;
+    font-size: 3rem;
     padding: 10px;
     text-align: center;
   }
+  .video{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(512px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
   .video__h3 {
+    display: flex;
+    justify-content: center;
     padding: 15px 0 0 15px;
     margin: 0;
+    font-size: 1.2em;
   }
   .video__one {
+    display: flex;
+    margin: auto;
     padding: 10px;
     width: 512px;
   }
@@ -559,29 +605,6 @@ li{
   .form textarea {
     min-height: 120px;
     resize: none;
-  }
-  .form-img {
-    flex: 1;
-    display: flex;
-    padding: 10px;
-    min-width: 100px;
-    order: 2;
-  }
-  .form-img div {
-    padding: 10px;
-  }
-  .img-container {
-    margin: auto;
-  }
-  .img-container div {
-    background-color: #fff;
-    border-radius: 50%;
-    text-align: center;
-    padding: 10px;
-  }
-  .form-img img {
-    width: 70%;
-    margin: auto;
   }
   .form input[type="submit"] {
     background-color: rgba(151, 63, 185, 0.575);
