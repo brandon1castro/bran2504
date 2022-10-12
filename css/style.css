@@ -422,7 +422,6 @@ li{
   }
   .carta__img {
     width: 320px;
-    height: 320px;
     display: block;
     margin: auto;
     box-shadow: 8px 2px 8px;
@@ -468,7 +467,6 @@ li{
   }
   .carta2__img {
     width: 320;
-    height: 320px;
     display: block;
     margin: auto;
     box-shadow: 8px 2px 8px;
@@ -484,7 +482,6 @@ li{
   }
   .carta3__img {
     width: 320px;
-    height: 320px;
     display: block;
     margin: auto;
     box-shadow: 8px 2px 8px;
