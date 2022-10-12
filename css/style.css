@@ -30,8 +30,6 @@ a {
   text-decoration: none;
   color: #000000;
   font-weight: 600;
-  padding-right: 25px;
-  font-size: 20px;
 }
 li{
   list-style: none;
@@ -244,7 +242,7 @@ li{
   justify-content: center;
   margin: auto;
   padding: 10px;
-  width: 280px;
+  width: 320px;
 }
 /* Fin de Galería */
 
@@ -331,6 +329,7 @@ li{
     font-weight: 600;
     padding-right: 25px;
     font-size: 20px;
+    transition: .3s;
   }
   nav a:hover {
     color: #db5be0d5;
@@ -555,7 +554,7 @@ li{
     justify-content: center;
     padding: 15px 0 0 15px;
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
   .video__one {
     display: flex;
