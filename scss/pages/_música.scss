@@ -1,0 +1,176 @@
+/* inicio de Música */
+.carta {
+  padding: 10px 15px;
+  &__h1 {
+    padding: 10px 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: 2.2rem;
+  }
+  &__h3 {
+    padding: 0 0 25px 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 3px 2px 3px #ffffff;
+    color: #000000;
+  }
+  &__img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    box-shadow: 8px 2px 8px;
+  }
+  &__button {
+    border: 1px solid;
+    padding: 8px 0px;
+    margin: 25px 0 0 10px;
+    background-color: #a032e956;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__text {
+    padding: 10px 15px;
+    width: 280px;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+  }
+}
+.carta2 {
+  padding: 10px 15px;
+  &__h1 {
+    padding: 10px 15px;
+    text-align: center;
+    font-style: italic;
+    font-size: 2.2rem;
+  }
+  &__h3 {
+    padding: 0 0 25px 0;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 3px 2px 3px #ffffff;
+    color: #000000;
+  }
+  &__img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    box-shadow: 8px 2px 8px;
+  }
+}
+.carta3 {
+  padding: 10px 15px;
+  &__h3 {
+    padding: 0 0 25px 0;
+    text-align: center;
+    margin: 25px 0 1px;
+    font-size: 1.3em;
+    text-shadow: 3px 2px 3px #ffffff;
+    color: #000000;
+  }
+  &__img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    box-shadow: 8px 2px 8px;
+  }
+}
+/* Fin de Música */
+@media (min-width: 992px) {
+  /* Inicio de Música */
+  .carta {
+    &__h1 {
+      padding: 10px;
+      text-align: center;
+      font-style: italic;
+      font-size: 3em;
+    }
+    &__h3 {
+      padding: 0 0 25px 0px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.3em;
+      text-shadow: 3px 2px 3px #ffffff;
+      color: #000000;
+    }
+    &__img {
+      width: 320px;
+      display: block;
+      margin: auto;
+      box-shadow: 8px 2px 8px;
+    }
+    &__button {
+      border: 1px solid;
+      padding: 8px 0px;
+      margin: 25px 0 0 10px;
+      background-color: #a032e956;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 10px;
+      display: block;
+      text-align: center;
+      width: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      &:hover {
+        background: #db5be0d5;
+      }
+    }
+    &__text {
+      padding: 10px;
+      margin: 10px;
+      width: 600px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.2em;
+    }
+  }
+  .carta2 {
+    &__h1 {
+      padding: 10px;
+      text-align: center;
+      font-style: italic;
+      font-size: 3rem;
+    }
+    &__h3 {
+      padding: 10px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.3em;
+      text-shadow: 3px 2px 3px #ffffff;
+      color: #000000;
+    }
+    &__img {
+      width: 320;
+      display: block;
+      margin: auto;
+      box-shadow: 8px 2px 8px;
+    }
+  }
+  .carta3 {
+    &__h3 {
+      padding: 10px;
+      margin: auto;
+      text-align: center;
+      margin-top: 15px;
+      font-size: 1.3em;
+      text-shadow: 3px 2px 3px #ffffff;
+      color: #000000;
+    }
+    &__img {
+      width: 320px;
+      display: block;
+      margin: auto;
+      box-shadow: 8px 2px 8px;
+    }
+  }
+  /* Fin de Música */
+}
